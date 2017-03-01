@@ -1,0 +1,6 @@
+h1.starting {text-align: center;font-size: large;}
+h1.starting{padding: 7px; background-color: aliceblue;}
+h1.starting{position: relative; top: 20px}
+body{
+    background-image: image("background_large.jpg");
+}

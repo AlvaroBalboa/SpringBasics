@@ -3,15 +3,18 @@
     <link href="website.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1 class="starting">THIS IS YOU BLOG POST YOU LIFE</h1>
     <form action="/" method="post">
-
+        <h1 class="starting">THIS IS YOUr BLOG POST YOU LIFE</h1>
+    </form>
+    <form action="/create-post" method="post">
         <input type="text" placeholder="Post something" name="post"/>
         <button type="submit">Post</button>
 
         <ol>
-            <li>{{post}}</li>
-        </ol>}
+            {{#posts}}
+            <li>{{blogPost}}</li>
+            {{/posts}}
+        </ol>
 
     </form>
 

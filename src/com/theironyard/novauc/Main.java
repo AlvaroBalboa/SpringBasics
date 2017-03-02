@@ -22,16 +22,25 @@ public class Main {
                     if (user == null || user.userName.length()==0) {
                         return new ModelAndView(m, "index.html");
                     } else {
-                        String currentPost = request.queryParams("post");
-                        user.posts.add(currentPost);
-                        Enumeration<String> e = Collections.enumeration(user.posts);
-                        while(e.hasMoreElements()) {
-                            bm.put("post", e.nextElement());
-                        }
-                        return new ModelAndView("post", "messages.html");
+//                        String currentPost = request.queryParams("post");
+//                        Blog blog = new Blog(currentPost);
+//                        user.posts.add(blog);
+
+                        return new ModelAndView(user, "messages.html");
                     }
                 }),
                 new MustacheTemplateEngine()
+
+        );
+        Spark.post("/create-post",
+                ((request, response) -> {
+                    String currentPost = request.queryParams("post");
+                    Blog blog = new Blog(currentPost);
+                    user.posts.add(blog);
+                    response.redirect("/");
+                    return "";
+
+                })
 
         );
 

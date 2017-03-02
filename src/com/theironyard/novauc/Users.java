@@ -9,7 +9,7 @@ import java.util.HashMap;
 public class Users {
     String userName;
     String password;
-    public static ArrayList<String> posts = new ArrayList();
+    public static ArrayList<Blog> posts = new ArrayList();
 
     public Users(String userName, String password){
         this.userName=userName;

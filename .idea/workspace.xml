@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5644dfe-ffaf-4413-b7ad-72d7a4b0064c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/templates/messages.html" afterPath="$PROJECT_DIR$/resources/templates/messages.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/theironyard/novauc/Main.java" afterPath="$PROJECT_DIR$/src/com/theironyard/novauc/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/theironyard/novauc/Users.java" afterPath="$PROJECT_DIR$/src/com/theironyard/novauc/Users.java" />
     </list>
     <ignored path="MicroBlog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +26,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/theironyard/novauc/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="37" column="54" lean-forward="true" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+            <state relative-caret-position="243">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1672#1727#0" expanded="false" />
+                <element signature="e#1721#1776#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -158,8 +156,8 @@
         <option value="$PROJECT_DIR$/resources/templates/create.html" />
         <option value="$PROJECT_DIR$/src/com/theironyard/novauc/Users.java" />
         <option value="$PROJECT_DIR$/src/com/theironyard/novauc/Blog.java" />
-        <option value="$PROJECT_DIR$/src/com/theironyard/novauc/Main.java" />
         <option value="$PROJECT_DIR$/resources/templates/messages.html" />
+        <option value="$PROJECT_DIR$/src/com/theironyard/novauc/Main.java" />
       </list>
     </option>
   </component>
@@ -171,7 +169,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="2" />
-    <option name="y" value="23" />
+    <option name="y" value="24" />
     <option name="width" value="1229" />
     <option name="height" value="777" />
   </component>
@@ -701,15 +699,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1488289641102</updated>
-      <workItem from="1488339549164" duration="11216000" />
+      <workItem from="1488339549164" duration="11848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11216000" />
+    <option name="totallyTimeSpent" value="11848000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="1229" height="777" extended-state="6" />
+    <frame x="2" y="24" width="1229" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -774,7 +772,7 @@
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1672#1727#0" expanded="false" />
+            <element signature="e#1721#1776#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -793,7 +791,7 @@
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1672#1727#0" expanded="false" />
+            <element signature="e#1721#1776#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -909,11 +907,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/theironyard/novauc/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="37" column="54" lean-forward="true" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+        <state relative-caret-position="243">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1672#1727#0" expanded="false" />
+            <element signature="e#1721#1776#0" expanded="false" />
           </folding>
         </state>
       </provider>

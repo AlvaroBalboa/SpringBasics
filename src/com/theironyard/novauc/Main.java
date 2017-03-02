@@ -12,7 +12,9 @@ public class Main {
     public static HashMap<String, Users> blog = new HashMap<>();
 
     public static void main(String[] args) {
+
         Spark.init();
+        Spark.staticFileLocation("/templates");
 
         Spark.get(
                 "/",
